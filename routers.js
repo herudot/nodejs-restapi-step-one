@@ -8,6 +8,7 @@ router.get('/students', function(req, res){
 
 // Endpoint using 'POST' method
 router.post('/student', function(req, res){
+    console.log(req.body);
     res.send('POST method.');
 });
 
