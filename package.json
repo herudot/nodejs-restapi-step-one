@@ -19,5 +19,8 @@
   "homepage": "https://github.com/herudot/step-one#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
