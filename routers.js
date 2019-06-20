@@ -8,8 +8,13 @@ router.get('/students', function(req, res){
 
 // Endpoint using 'POST' method
 router.post('/student', function(req, res){
-    console.log(req.body);
-    res.send('POST method.');
+    const {name, gender, age, body} = req.body;
+    res.send({
+        method:"POST",
+        name: name,
+        gender: gender,
+        age:age
+    });
 });
 
 // Endpoint using 'PUT' method
