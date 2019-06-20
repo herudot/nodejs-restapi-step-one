@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.get('/', function(){
+app.get('/', function(req, res){
     console.log('This GET method created by express.');
+    res.end();
 });
 
 app.listen(process.env.port || 5000, function(){
