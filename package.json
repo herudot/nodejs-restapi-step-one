@@ -1,0 +1,20 @@
+{
+  "name": "step-one",
+  "version": "1.0.0",
+  "description": "This repository dedicated to learn more about ***NodeJS REST-API*** for beginner using ***Express Framework***. And the detail of containts in this repository etc :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herudot/step-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herudot/step-one/issues"
+  },
+  "homepage": "https://github.com/herudot/step-one#readme"
+}
