@@ -3,7 +3,11 @@ const app = express();
 
 app.get('/', function(req, res){
     console.log('This GET method created by express.');
-    res.end();
+    res.send({
+        name: 'Heru Oktafian',
+        gender: 'Male',
+        age: 31
+    });
 });
 
 app.listen(process.env.port || 5000, function(){
