@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/herudot/step-one/issues"
   },
-  "homepage": "https://github.com/herudot/step-one#readme"
+  "homepage": "https://github.com/herudot/step-one#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
